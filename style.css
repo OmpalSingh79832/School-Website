@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* --------- START NAVBAR CSS -------- */
+.top-navbar {
+    background-color: #2B28;
+    padding: 15px 0;
+}
+.navbar-light .navbar-brand {
+    color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{ 
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:#fff !important;
+    margin: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #BABABC  !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: red !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #2B2853  !important;
+    padding: 0;
+    margin: -1px 0 0;
+    overflow: hidden;
+}
+.dropdown-item {
+    color: #fff !important;
+    padding: 5px 25px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #2b2843  !important;
+    transform: translateX(5px);
+    transition: .5s;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/*
+================== RESPONSIVE ==================
+*/
+@media (max-width: 768px) {
+
+   .navbar-light .navbar-toggler {
+    background: #fff !important;
+    }
+   
+}
+@media (max-width: 992px) {
+
+   .navbar-light .navbar-toggler {
+    background: #fff !important;
+    }
+    
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-slide img {
+ 
+    height: 70vh;
+  } 
+  ul li{
+list-style: none;
+margin-left: -30px;
+cursor: pointer;
+  }
+
+  .footer-bg {
+    background: #2B28;
+    padding: 20px 0;
+  }
+  .footer {
+    text-align: center;
+    background:rgba(7, 84, 7, 0.533) ;
+    color: white;
+    padding: 10px;
+  }
